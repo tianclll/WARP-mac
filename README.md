@@ -86,7 +86,7 @@ cd 优选IP脚本 && chomod +x warp && bash warp-yxip-mac.sh
 
 - 然后等待结果，会提示**测试结果已经写入result.csv**，越靠前，速度越快。
 
-  <img src="-images/image-20230817172049718.png" alt="image-20230817172049718" style="zoom:33%;" />
+  <img src="images/image-20230817172049718.png" alt="image-20230817172049718" style="zoom:33%;" />
 
 - 选择一个IP
 
