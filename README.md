@@ -4,13 +4,13 @@
 
 下载macOS版本，解压后安装，并启动
 
-<img src="/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817161955566.png" alt="image-20230817161955566" style="zoom:25%;" />
+<img src="images/image-20230817161955566.png" alt="image-20230817161955566" style="zoom:25%;" />
 
 启动后会在状态栏中显示出来。
 
 # 二、升级为Warp+ 24PB版
 
-- 1.打开网址：https://blog.upx8.com/warp.html，点击生成密钥；![image-20230817161633313](/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817161633313.png)
+- 1.打开网址：https://blog.upx8.com/warp.html，点击生成密钥；![image-20230817161633313](images/image-20230817161633313.png)
 
 - 2.将生成的密钥复制到Cloudflare WARP中：
 
@@ -18,15 +18,15 @@
 
   - 点击右上角的设置
 
-    <img src="/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817162359527.png" alt="image-20230817162359527" style="zoom:25%;" />
+    <img src="images/image-20230817162359527.png" alt="image-20230817162359527" style="zoom:25%;" />
 
   - 点击‘’Preferences‘’
 
-    <img src="/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817162612030.png" alt="image-20230817162612030" style="zoom:25%;" />
+    <img src="images/image-20230817162612030.png" alt="image-20230817162612030" style="zoom:25%;" />
 
   - 点击‘’Account‘’ ---> "Use Different Key"
 
-    ![image-20230817163009169](/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817163009169.png)
+    ![image-20230817163009169](images/image-20230817163009169.png)
 
 ​		若报错key无效或者不是24PB，就重复第一个步骤，重新生成密钥（建议一次性多生成几个,然后一个一个的试）
 
@@ -42,11 +42,11 @@
 
 - (1)输入组织名称(自己命名)，点击“Next”按钮
 
-![image-20230817164408303](/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817164408303.png)
+![image-20230817164408303](images/image-20230817164408303.png)
 
 - (2)选择最左边那个“Free”计划
 
-  ![image-20230817164741675](/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817164741675.png)
+  ![image-20230817164741675](images/image-20230817164741675.png)
 
 - (3)点击“Proceed to payment”按钮
 
@@ -58,7 +58,7 @@
 
 - (1)然后又点击状态栏上的Cloudflare WARP程序到‘Accouut’‘
 
-![image-20230817163009169](/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817163009169.png)
+![image-20230817163009169](images/image-20230817163009169.png)
 
 - (2)点击右下角的"Login to Cloudflare Zero Trust",然后输入刚刚创建的团队名称，然后点‘’Accept‘’这些。
 
@@ -66,7 +66,7 @@
 
 - (4)变成这种就成功了
 
-  <img src="/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817165937072.png" alt="image-20230817165937072" style="zoom:25%;" />
+  <img src="images/image-20230817165937072.png" alt="image-20230817165937072" style="zoom:25%;" />
 
 
 
@@ -86,7 +86,7 @@ cd 优选IP脚本 && chomod +x warp && bash warp-yxip-mac.sh
 
 - 然后等待结果，会提示**测试结果已经写入result.csv**，越靠前，速度越快。
 
-  <img src="/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817172049718.png" alt="image-20230817172049718" style="zoom:33%;" />
+  <img src="-images/image-20230817172049718.png" alt="image-20230817172049718" style="zoom:33%;" />
 
 - 选择一个IP
 
@@ -116,4 +116,4 @@ cd 优选IP脚本 && chomod +x warp && bash warp-yxip-mac.sh
 
 最后将Cloudflare WARP打开就可以使用了。
 
-<img src="/Users/liuhongdi/Library/Application Support/typora-user-images/image-20230817172947149.png" alt="image-20230817172947149" style="zoom:33%;" />
+<img src="images/image-20230817172947149.png" alt="image-20230817172947149" style="zoom:33%;" />
